@@ -5,7 +5,7 @@
 # SOURCE: https://github.com/puckel/docker-airflow
 
 #FROM python:3.7-slim-stretch
-FROM qzkc/python2.7:v2
+FROM python:2.7-slim-stretch
 LABEL maintainer="Puckel_"
 
 # Never prompts the user for choices on installation/configuration of packages
